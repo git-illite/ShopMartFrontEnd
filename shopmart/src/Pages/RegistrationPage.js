@@ -6,9 +6,9 @@ const RegistrationPage = () => {
   return (
     <>
       <Header />
-      <section id="register-section">
-        <div className="container">
-          <h1>Register</h1>
+      <section className="register-section">
+        <div className="RegContainer">
+          <h1 style={{color: "white"}}>Register</h1>
 
           <form action="">
             <div className="form-control">
@@ -32,7 +32,7 @@ const RegistrationPage = () => {
             </div>
 
             <div className="form-control">
-              <label htmlFor="cpassword">Confirm Password</label>
+              <label htmlFor="password">Confirm Password</label>
               <input type="text" id="password" />
             </div>
 

@@ -7,8 +7,8 @@ const LoginPage = () => {
     <>
       <Header />
       <section id="login-section">
-        <div className="container">
-          <h1>Login</h1>
+        <div className="RegContainer">
+          <h1 style={{color:"white"}}>Login</h1>
 
           <form action="">
             <div className="form-control">

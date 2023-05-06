@@ -36,13 +36,16 @@ img
 
 header
 {
-    background-color: rgb(3,37,65);
+    background-color: rgb(3,37,65);    
+    margin-bottom: 100;
+    left: 0;
+  
 }
 
 header li
 {
     display: inline-block;
-    padding:16px 32px;
+    padding:8px 32px;
 }
 
 header li:nth-child(1)
@@ -67,7 +70,7 @@ header ul
 #hero-section
 {
     height: calc(100vh - 50px);  
-    z-index: 1;
+    z-index: -2;
     position: relative;
     color:white;
     font-weight:bolder;
@@ -75,6 +78,7 @@ header ul
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin-top: 0;
 
   
 }
@@ -189,10 +193,37 @@ header ul
 
 
 /*Registration*/
+.register-section {
+    
+    
+}
+.register-section:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.RegContainer{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 2px 16px;    
+    background-color: rgb(3,37,65);
+    padding: 20px;
+     width: 25%;
+    height: 100%;
+    border-radius: 25px;
+    border: 2px solid rgb(3,37,65);
+
+}
+
 
 .form-control 
 {
     margin-bottom:20px; 
+    color: #02263d;
+	/* position: absolute; */
+	top: 1.5rem;
+	transition: .25s ease;
 }
 
 
@@ -200,7 +231,7 @@ header ul
 {
     display:block;
     margin:8px 0;
-    color : black;
+    color : rgb(255, 255, 255);
 }
 .form-control input[type="text"],.form-control input[type="password"]
 {

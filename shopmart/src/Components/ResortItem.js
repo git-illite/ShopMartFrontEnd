@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const RestortItem = ({id,title,image,price}) => {
+const ResortItem = ({id,title,image,price}) => {
 
   return  (
     <div className="resort-card">
@@ -17,4 +17,4 @@ const RestortItem = ({id,title,image,price}) => {
   );
 }
 
-export default RestortItem
+export default ResortItem

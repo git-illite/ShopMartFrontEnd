@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import ResortItem from './RestortItem'
+import ResortItem from './ResortItem'
 
 const ResortList = () => {
 
